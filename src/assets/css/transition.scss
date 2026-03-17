@@ -1,0 +1,50 @@
+// 前进动画（从右往左滑入）
+.slide-right-enter-active,
+.slide-right-leave-active {
+  transition: all 0.3s ease;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.slide-right-enter-from {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.slide-right-leave-to {
+  transform: translateX(-30%);
+  opacity: 0.5;
+}
+
+// 后退动画（从左往右滑入）
+.slide-left-enter-active,
+.slide-left-leave-active {
+  transition: all 0.3s ease;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.slide-left-enter-from {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.slide-left-leave-to {
+  transform: translateX(30%);
+  opacity: 0.5;
+}
+
+// 淡入淡出（tab切换用）
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
