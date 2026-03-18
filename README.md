@@ -5,7 +5,9 @@
 [![Vite](https://img.shields.io/badge/Vite-6.x-646cff?logo=vite)](https://vitejs.dev/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**SweetHome** 是一款基于 Vue 3 + Vant UI 构建的移动端租房应用。更是为了自我提升，从0到1构建、模拟、还原的实战尝试。
+**SweetHome** 是一款基于 Vue 3 + Vant UI 构建的移动端租房应用，使用 Service 代理层 实现全栈模拟。是一次为了自我提升，从0到1构建、模拟、还原的实战尝试。
+
+> **在线预览地址**：https://sweet-home-brown.vercel.app/
 
 ---
 
@@ -78,11 +80,11 @@ npm run preview
 | **Vue 3** | 使用 `script setup` 组合式 API 编写 |
 | **Vant 4** | 移动端主流 UI 组件库 |
 | **Pinia** | 模块化状态管理（User, Favorite, Message, Main） |
-| **Mock.js** | **内置高保真数据模拟层**，拦截 Ajax 请求 |
 | **Vue Router** | 路由管理，支持页面缓存（Keep-alive） |
 | **SCSS** | 模块化样式开发 |
+| **Vercel** | CI/CD 自动化部署 |
 
-## 🛠️ 环境要求 (Environment)
+## 💻 环境要求 (Environment)
 
 - **Node.js**: `v22.17.0` 或更高版本 (推荐使用 LTS 版本)
 - **Package Manager**: `npm` 或 `pnpm`
